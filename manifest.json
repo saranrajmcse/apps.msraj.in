@@ -1,0 +1,35 @@
+{
+    "name": "M S RAJ APPS",
+    "short_name": "MSRAJ APPS",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#000",
+    "icons": [
+      {
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "icon512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "share_target": {
+      "action": "/",
+      "method": "POST",
+      "enctype": "multipart/form-data",
+      "params": {
+        "files": [
+          {
+            "name": "image",
+            "accept": ["image/*"]
+          }
+        ]
+      }
+    }
+  }
+  
