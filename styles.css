@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,4 +14,46 @@ body {
     height: auto;
     margin-top: 10px;
   }
-  
+  .instagram-button {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background 0.3s ease-in-out;
+}
+
+.instagram-button:hover {
+    background: linear-gradient(45deg, #bc1888, #cc2366, #dc2743, #e6683c, #f09433);
+}
+
+.youtube-button {
+            background-color: #FF0000 !important; /* YouTube red */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: background-color 0.3s ease-in-out;
+ }
+
+.youtube-button:hover {
+            background-color: #CC0000 !important; /* Slightly darker red for hover effect */
+ }
+
+ .bi-hand-index-thumb::before{
+          transform: rotate(90deg) !important;
+ }
+
+ 
