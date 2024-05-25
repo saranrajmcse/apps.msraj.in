@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
 
 body {
     font-family: Arial, sans-serif;
@@ -56,4 +57,27 @@ body {
           transform: rotate(90deg) !important;
  }
 
- 
+    /* CSS for Tirukkural couplets */
+    #tirukkural-container {
+      max-width: 600px; /* Adjust as per your layout */
+      margin: 0 auto; /* Center align container */
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+  }
+
+  #tirukkural-container p {
+      margin: 0; /* Remove default margin */
+      font-family: "Kavivanar", cursive;
+      color:forestgreen;
+      font-weight: bold;
+      text-align: left;
+  }
+  #tirukkural-container h2 {
+    margin: 0; /* Remove default margin */
+    font-family: "Kavivanar", cursive;
+    color:rgb(34, 67, 139);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
