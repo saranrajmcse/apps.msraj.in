@@ -35,7 +35,7 @@ body {
 }
 
 .youtube-button {
-            background-color: #FF0000 !important; /* YouTube red */
+            background-color: #CC0000 !important; /* YouTube red */
             border: none;
             color: white;
             padding: 10px 20px;
@@ -80,4 +80,38 @@ body {
     color:rgb(34, 67, 139);
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+.l-bg-instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888) !important;
+  color: #fff;
+}
+
+.l-bg-youtube {
+  background:  #FF0000 !important;
+  color: #fff;
+}
+
+.card .card-statistic-3 .card-icon-large .bi, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+  font-size: 110px;
+}
+
+.card .card-statistic-3 .card-icon {
+  text-align: center;
+  line-height: 50px;
+  margin-left: 15px;
+  color: #000000;
+  position: absolute;
+  right: 5px;
+  top: 20px;
+  opacity: 0.1;
 }
