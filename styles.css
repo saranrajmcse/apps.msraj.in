@@ -118,3 +118,6 @@ body {
   top: 20px;
   opacity: 0.1;
 }
+#contact a{
+  text-decoration: none;
+}
