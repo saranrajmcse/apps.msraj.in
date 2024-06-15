@@ -53,6 +53,26 @@ body {
             background-color: #CC0000 !important; /* Slightly darker red for hover effect */
  }
 
+ 
+.facebook-button {
+  background-color: #1c51ff !important; /* YouTube red */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.facebook-button:hover {
+  background-color: #1c51ff !important; /* Slightly darker red for hover effect */
+}
+
  .bi-hand-index-thumb::before{
           transform: rotate(90deg) !important;
  }
@@ -104,6 +124,10 @@ body {
   color: #fff;
 }
 
+.l-bg-facebook {
+  background:  #1877F2 !important;
+  color: #fff;
+}
 .card .card-statistic-3 .card-icon-large .bi, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
   font-size: 110px;
 }
